@@ -31,3 +31,15 @@ build/
 
 ### VS Code ###
 .vscode/
+# Ignore Eclipse workspace files
+.metadata/
+
+# Ignore Maven target folders
+**/target/
+
+# Ignore Eclipse/IntelliJ project files
+.classpath
+.project
+.settings/
+.idea/
+*.iml
